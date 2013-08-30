@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleStreetPass", "CycleStreetPass\CycleStreetPass.csproj", "{E4E06055-8BAD-4406-BDEA-1D2282408AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "macshift", "macshift", "{C3E2BAC2-591E-47DC-A05B-8A13B3531BB1}"
+	ProjectSection(SolutionItems) = preProject
+		CycleStreetPass\macshift\macshift.cpp = CycleStreetPass\macshift\macshift.cpp
+		CycleStreetPass\macshift\macshift.exe = CycleStreetPass\macshift\macshift.exe
+		CycleStreetPass\macshift\validmacs.h = CycleStreetPass\macshift\validmacs.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E06055-8BAD-4406-BDEA-1D2282408AB7}.Debug|x86.ActiveCfg = Debug|x86
+		{E4E06055-8BAD-4406-BDEA-1D2282408AB7}.Debug|x86.Build.0 = Debug|x86
+		{E4E06055-8BAD-4406-BDEA-1D2282408AB7}.Release|x86.ActiveCfg = Release|x86
+		{E4E06055-8BAD-4406-BDEA-1D2282408AB7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+* text=auto !eol
+/CycleStreetPass.sln -text
+CycleStreetPass/App.config -text
+CycleStreetPass/CycleStreetPass.csproj -text
+CycleStreetPass/Program.cs -text
+CycleStreetPass/Properties/AssemblyInfo.cs -text
+CycleStreetPass/macshift/macshift.cpp -text
+CycleStreetPass/macshift/macshift.exe -text
+CycleStreetPass/macshift/validmacs.h -text
