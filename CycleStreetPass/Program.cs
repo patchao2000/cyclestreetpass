@@ -280,6 +280,7 @@ namespace CycleStreetPass
             {
                 StopNetwork();
                 Thread.Sleep(5000);
+                Console.WriteLine(string.Format("mac number {0}:", i));
                 ChangeMac(macs[i]);
                 SaveConfig(i++);
                 if (i >= macs.Length)
