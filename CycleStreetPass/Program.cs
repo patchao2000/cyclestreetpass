@@ -282,6 +282,7 @@ namespace CycleStreetPass
                 Thread.Sleep(5000);
                 Console.WriteLine(string.Format("mac number {0}:", i));
                 ChangeMac(macs[i]);
+                Console.WriteLine(string.Format("Time: {0}", DateTime.Now.ToShortTimeString()));
                 SaveConfig(i++);
                 if (i >= macs.Length)
                     i = 0;
