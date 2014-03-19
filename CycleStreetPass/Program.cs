@@ -276,6 +276,7 @@ namespace CycleStreetPass
                 i = 0;
 
             //foreach (string mac in macs)
+
             while (true)
             {
                 StopNetwork();
